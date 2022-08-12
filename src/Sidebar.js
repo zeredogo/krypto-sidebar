@@ -1,5 +1,4 @@
-import React from 'react'
-import logo from './logo.svg';
+import React from 'react';
 import { FaTimes } from 'react-icons/fa';
 import { social, links } from './data';
 import { useGlobalContext } from './context';
@@ -9,7 +8,7 @@ const Sidebar = () => {
   return (
     <aside className={`${isSidebarOpen ? 'sidebar show-sidebar' : 'sidebar' } `}>
       <div className='sidebar-header'>
-        <img src={logo} className='logo' alt='krypto Zone' />
+      <h2>Krypto <strong className='strong'>Zone</strong></h2>
         <button className='close-btn' onClick={closeSidebar}>
           <FaTimes />
         </button>

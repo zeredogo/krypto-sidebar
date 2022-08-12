@@ -9,6 +9,7 @@ function App() {
       <Home />
       <Modal />
       <Sidebar />
+      <p className="footer"><small>Krypto Zone &copy; 2022</small></p>
     </>
   )
 }

@@ -326,3 +326,15 @@ Sidebar
     width: 400px;
   }
 }
+.strong {
+  color: var(--clr-primary-5);
+}
+
+.footer{
+  text-align: center;
+  border: none;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 0;
+
+}

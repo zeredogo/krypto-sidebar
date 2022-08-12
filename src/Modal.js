@@ -5,7 +5,9 @@ import { useGlobalContext } from './context';
 const Modal = () => {
   const { isModalOpen, closeModal } = useGlobalContext();
 
-  return <div className={`${isModalOpen ? 
+  return <div 
+  className=
+  {`${ isModalOpen ? 
   'modal-overlay show-modal' : 
   'modal-overlay'}`
   }>
